@@ -7,8 +7,10 @@ This project retrieves RSS feeds from one or more websites, converts them into E
 ## How to use :
 
 1. Ensure that Docker is properly installed and that you have Docker Compose.
-2. Clone the repository: `git clone https://github.com/killbib-coder/RSS-to-EPUB.git && cd RSS-to-EPUB`
-3. Start Docker Compose with the command: `docker-compose up -d`
+2. Clone the repository: 
+```git clone https://github.com/killbib-coder/RSS-to-EPUB.git && cd RSS-to-EPUB```
+3. Start Docker Compose with the command: 
+```docker-compose up -d```
 4. Run the script `main_script.sh` located in the scripts folder to retrieve all RSS feeds, convert them to EPUB, transfer them to the web server, and automatically update the `index.html` files.
 5. Connect to your Nginx server (usually at `localhost:8080`) to download the EPUB files from any device (eReader, etc.).
 
@@ -22,6 +24,7 @@ This project utilizes several components to automate the process of retrieving R
 
 ### Directory Structure
 
+```
 .
 ├── docker-compose.yml
 ├── README.md
@@ -35,6 +38,7 @@ This project utilizes several components to automate the process of retrieving R
 └── www
     ├── data
     └── index.html
+```
 
 ### Author
 
