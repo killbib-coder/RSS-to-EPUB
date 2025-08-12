@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Chemin vers le fichier index.html
-INDEX_FILE="../www/index.html"
+INDEX_FILE="./index.html"
 
 # Chemin vers le dossier contenant les fichiers EPUB
-EPUB_DIR="../www/data"
+EPUB_DIR="./data"
 
 # Créer une liste des fichiers EPUB
 EPUB_FILES=("$EPUB_DIR"/*.epub)
