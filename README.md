@@ -2,7 +2,7 @@
 
 ## Description :
 
-This project retrieves RSS feeds from one or more websites, converts them into EPUB format, and automatically transfers the resulting EPUB files to a local Nginx server. Additionally, it updates the index file to provide easy access to the newly created EPUB files.
+This project retrieves RSS feeds from one or more websites, converts them into EPUB format, and automatically transfers the resulting EPUB files to a local Nginx server. Additionally, it updates the index file to provide easy access to the newly created EPUB files. This project was born out of the need to deliver news content to eReaders.
 
 ## How to use :
 
